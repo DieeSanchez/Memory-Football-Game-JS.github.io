@@ -45,7 +45,7 @@ function pulsar(id){
 
         //imprimir en el html el primer resultado
         primerClick = array[id];
-        boton1.innerHTML= `<img src="./img/${primerClick}.png">`;        
+        boton1.innerHTML= `<img src="./Img/${primerClick}.png">`;        
 
         //bloquear el primer boton
         boton1.disabled=true;
@@ -66,7 +66,7 @@ function pulsar(id){
 
         //imprimir en el html el segundo resultado
         segundoClick = array[id];
-        boton2.innerHTML= `<img src="./img/${segundoClick}.png">`;
+        boton2.innerHTML= `<img src="./Img/${segundoClick}.png">`;
         
 
         //bloquear el segundo boton
@@ -146,7 +146,7 @@ function contarTime(){
 function bloquearBotones(){
     for(let i=0; i<=15; i++){
         let botonBloqueado = document.getElementById(i);
-        botonBloqueado.innerHTML = `<img src="./img/${array[i]}.png">`;
+        botonBloqueado.innerHTML = `<img src="./Img/${array[i]}.png">`;
         botonBloqueado.disabled = true;
     }
 }
